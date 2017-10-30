@@ -1,5 +1,16 @@
-import Pessoa from './pessoa';
+const produto = {
+  nome: 'Caneta BIC azul',
+  preco: 1.90,
+  desconto: 0.05
+}
 
-const pessoa = new Pessoa('Daniel');
+function clone(objeto) {
+  // operador spread
+  return { ...objeto }
+}
 
-console.log(pessoa.toString());
+const novoProduto = clone(produto);
+
+novoProduto.nome = 'Caneta BIC preta';
+
+console.log(produto, novoProduto);
