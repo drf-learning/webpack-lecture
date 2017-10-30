@@ -2,7 +2,7 @@ import 'react';
 
 // exemplo arrow function
 export default props => (
-  null
+  <h1>olá</h1>
 );
 
-console.log('Funcionou');
+console.log('Funcionou!');
