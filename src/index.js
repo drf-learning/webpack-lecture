@@ -1,16 +1,8 @@
-const produto = {
-  nome: 'Caneta BIC azul',
-  preco: 1.90,
-  desconto: 0.05
-}
+import 'react';
 
-function clone(objeto) {
-  // operador spread
-  return { ...objeto }
-}
+// exemplo arrow function
+export default props => (
+  null
+);
 
-const novoProduto = clone(produto);
-
-novoProduto.nome = 'Caneta BIC preta';
-
-console.log(produto, novoProduto);
+console.log('Funcionou');
