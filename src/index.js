@@ -1,3 +1,13 @@
-const logger = require('./logger.js');
+class Pessoa {
+  constructor(nome) {
+    this.nome = nome
+  }
 
-logger.info(1);
+  toString() {
+    return `Pessoa: ${this.nome}`;
+  }
+}
+
+const pessoa = new Pessoa('Daniel');
+
+console.log(pessoa.toString());
