@@ -1,4 +1,5 @@
 import 'react';
+import './estilo.css';
 
 // exemplo arrow function
 export default props => (
